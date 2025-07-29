@@ -13887,7 +13887,8 @@ html:not(.has-rv-open).is-first-loaded.is-loading .c-rv-modal_inner {
 
 @media(min-width: 1000px) {
     .c-product-section_list {
-        grid-template-columns: repeat(3, minmax(0, 1fr))
+/*         grid-template-columns: repeat(3, minmax(0, 1fr)) */
+        display:flex;
     }
 }
 
