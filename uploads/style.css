@@ -13876,13 +13876,25 @@ html:not(.has-rv-open).is-first-loaded.is-loading .c-rv-modal_inner {
 
 /* lines for articles */
 
+.c-product-section_list {
+    display: grid;
+    gap: var(--grid-gutter)
+}
 
+@media(min-width: 500px)and (max-width: 999px) {
+    .c-product-section_list {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+}
 
 @media(min-width: 1000px) {
     .c-product-section_list {
+/*         grid-template-columns: repeat(3, minmax(0, 1fr)) */
         display:flex;
     }
 }
+
+
 
 /* lines ended  */
  
