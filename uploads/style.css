@@ -13876,40 +13876,21 @@ html:not(.has-rv-open).is-first-loaded.is-loading .c-rv-modal_inner {
 
 /* lines for articles */
 
-@media (max-width: 499px) {
-  .c-product-section_list {
-    display: flex !important;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  .c-product-section_list hr {
-    /* Make <hr> horizontal for small screens */
-    border: none !important;
-    border-top: 2px solid #ccc  !important;
-    border-left: none  !important;
-    width: 80%  !important;
-    height: 0  !important;
-    margin: 1.5rem auto  !important;
-    background: #ccc  !important;
-    display: block  !important;
-    padding: 0  !important;
-  }
+.c-product-section_list {
+    display: grid;
+    gap: var(--grid-gutter)
 }
- 
+
 @media(min-width: 500px)and (max-width: 999px) {
     .c-product-section_list {
-        display: flex !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr))
     }
 }
- 
-.c-product-section_list{
-    display: flex !important;
-}
- 
- 
+
 @media(min-width: 1000px) {
     .c-product-section_list {
-        display:flex !important;
+/*         grid-template-columns: repeat(3, minmax(0, 1fr)) */
+        display:flex;
     }
 }
  
