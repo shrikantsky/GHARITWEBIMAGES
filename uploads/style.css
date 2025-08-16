@@ -7682,14 +7682,14 @@ html.is-first-loaded .c-carousel_thumbnail_item {
     }
 }
 
-.c-tile_link {
+/* .c-tile_link {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 2
-}
+} */
 
 .c-tile_date {
     font-family: "SuisseIntlMono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
@@ -15339,3 +15339,4 @@ html.is-ready .u-anim-fade:not(.-scroll) {
     transform: translate3d(0, 0, 0);
     transition-delay: var(--delay, 0s)
 }
+
