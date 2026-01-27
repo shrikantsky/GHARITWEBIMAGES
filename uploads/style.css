@@ -14,7 +14,6 @@
     --spacing-big-mobile: 80;
     --spacing-big: 150;
     --spacing-huge-mobile: 100;
-    --spacing-huge: 200;
     --spacing-enormous-mobile: 140;
     --spacing-enormous: 250;
     --color-primary: #FA5C40;
@@ -15343,3 +15342,4 @@ html.is-ready .u-anim-fade:not(.-scroll) {
     transform: translate3d(0, 0, 0);
     transition-delay: var(--delay, 0s)
 }
+
